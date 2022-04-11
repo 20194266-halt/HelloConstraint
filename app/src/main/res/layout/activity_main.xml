@@ -24,22 +24,25 @@
                 android:id="@+id/button_toast"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/button_label_toast"
-                android:onClick="showToast"/>
+                android:backgroundTint="#0D27D5"
+                android:onClick="showToast"
+                android:text="@string/button_label_toast" />
 
             <Button
                 android:id="@+id/button_zero"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/button_label_zero"
-                android:onClick="setZero"/>
+                android:backgroundTint="#957D7F"
+                android:onClick="setZero"
+                android:text="@string/button_label_zero" />
 
             <Button
                 android:id="@+id/button_count"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/button_label_count"
-                android:onClick="countUp"/>
+                android:backgroundTint="#0D27D5"
+                android:onClick="countUp"
+                android:text="@string/button_label_count" />
         </LinearLayout>
 
         <TextView
